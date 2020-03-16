@@ -1,0 +1,164 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0, #f345, #235);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 4px;
+}
+
+.navbar-item {
+    margin: 0 8px;
+    position: relative;
+    min-height: 26px;
+}
+
+.navbar-item,
+.navbar-item-link {
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navbar-item,
+.navbar-item-link,
+.navbar--icon {
+    display: inline-block;
+    align-items: center;
+}
+
+.navbar-item:hover,
+.navbar-item-link:hover,
+.navbar-icon-link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.strong {
+    font-weight: 500;
+}
+
+.colse::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 14px;
+    background-color: lightcyan;
+    right: -9px;
+    top: 25%;
+}
+
+.navbar-icon-link {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.navbar--icon {
+    font-size: 1.8rem;
+    margin: 0 4px;
+}
+
+.navbar-nolink {
+    cursor: text;
+    color: var(--white-color);
+}
+
+.qr-code {
+    height: auto;
+    background-color: red;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.hover-qr:hover .qr-code {
+    display: block;
+}
+
+.navbar-tb {
+    position: absolute;
+    top: 118%;
+    right: 0;
+    width: 404px;
+    border: 1px solid #d3d3d3;
+    background-color: var(--white-color);
+}
+
+.header-tb {
+    height: 40px;
+    background-color: var(--white-color);
+}
+
+h3 {
+    color: #000;
+    margin: 0 0 0 12px;
+    line-height: 40px;
+    font-size: 1.4rem;
+}
+
+.navbar-tb-list {
+    padding-left: 0;
+}
+
+.navbar-tb-link {
+    display: flex;
+    padding: 12px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.navbar-tb-item {
+    display: flex;
+}
+
+.navbar-tb-item:hover {
+    background-color: burlywood;
+}
+
+.item-readed {
+    background-color: beige;
+}
+
+.navbar-tb-img {
+    width: 48px;
+    object-fit: contain;
+}
+
+.navbar-tb-tt {
+    margin-left: 12px;
+}
+
+.navbar-tb-n {
+    display: block;
+    font-size: 1.4rem;
+    color: black;
+    font-weight: 400;
+}
+
+.navbar-tb-d {
+    display: block;
+    font-size: 1.2rem;
+    color: rgb(48, 47, 47);
+}
+
+.navbar-tb-footer {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.navbar-tb-btn {
+    text-decoration: none;
+    padding: 16px;
+    cursor: move;
+}
